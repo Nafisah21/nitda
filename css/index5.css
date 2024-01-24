@@ -333,7 +333,7 @@ button {
   background-color: forestgreen;
   color: white;
   font-size: 35px;
-  width: 100%;
+  width: 75%;
   margin-left: 180px;
   padding: 15px 0px 15px 0px;
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -444,10 +444,10 @@ footer {
       margin-top: 20px;
       background-color: tan;
       color: black;
-      width: 350px;
+      width: 380px;
       height: 40px;
       border: none;
-      margin-left:10px;
+      margin-left:18gitpx;
       font-size: 15px;
       border-radius: 10px;
     }
