@@ -444,15 +444,15 @@ footer {
       margin-top: 20px;
       background-color: tan;
       color: black;
-      width: 400px;
+      width: 350px;
       height: 40px;
       border: none;
       margin-left:10px;
-      font-size: 17px;
+      font-size: 15px;
       border-radius: 10px;
     }
     .spell p {
-      font-size:38px;
+      font-size:32px;
       padding-left: 40px;
       font-weight: 700;
       margin-top: 20px;
