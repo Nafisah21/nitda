@@ -42,7 +42,7 @@ html {
   width: 80%;
   height: 400px;
   color: white;
-  padding-top: 250px;
+  padding-top: 270px;
 }
 .spell p {
   font-size: 50px;
@@ -437,17 +437,20 @@ footer {
       width: 100%;
     }
     .spell{
-      height: 520px;
-      margin-left: 20px;
+      height: 550px;
+      background-size: cover;
+      margin-left: 20px; 
+      width: 100%;
+
     }
     .technical {
       margin-top: 20px;
       background-color: tan;
       color: black;
-      width: 380px;
+      width: 355px;
       height: 40px;
       border: none;
-      margin-left:18gitpx;
+      margin-left:8px;
       font-size: 15px;
       border-radius: 10px;
     }
@@ -476,7 +479,7 @@ footer {
       background-color: seagreen;
       width:100%;
       height:20%;
-      margin-left:1%;
+    
       
     }
     .group h1{
