@@ -419,7 +419,7 @@ footer {
       width: 100%;
     }
     .group2 img{
-      padding-left: 10%;
+      padding-left:3%;
     }
     .group3 {
       display: block;
@@ -427,11 +427,14 @@ footer {
     }
     .group3 p {
       width: 100%;
-      margin-left: -13%;
+      margin-left:-25%;
+    }
+    .group3 img{
+     margin-left:-45px;
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media all and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -439,7 +442,7 @@ footer {
     .spell{
       height: 550px;
       background-size: cover;
-      margin-left: 20px; 
+      margin-left:0px; 
       width: 100%;
 
     }
@@ -447,10 +450,10 @@ footer {
       margin-top: 20px;
       background-color: tan;
       color: black;
-      width: 355px;
+      width: 350px;
       height: 40px;
       border: none;
-      margin-left:8px;
+      margin-left:10px;
       font-size: 15px;
       border-radius: 10px;
     }
@@ -471,22 +474,26 @@ footer {
       line-height: 20px;
     }
     .mtt img {
-      padding: 220px 40px;
-      height: 400px;
+      padding: 220px 20px;
+      height: 200px;
       width: 320px;
     }
     .group {
       background-color: seagreen;
       width:100%;
       height:20%;
-    
+     margin-left:2px;
       
     }
     .group h1{
-      font-size: 50px;
+      font-size: 40px;
+      padding: 30px 10px;
     }
     .group2 {
       display:block;
+    }
+    .group2 p{
+      font-size:16px;
     }
     
     .group3 {
@@ -497,15 +504,22 @@ footer {
     .focus h1 {
       padding-top: 50px;
       color: forestgreen;
+      
     }
+    .group .focus p {
+      color: black;
+      /* margin-top: -120px; */
+      margin-left: -50px;
+    }
+    
     .focus table {
       margin-top: -110px;
     }
     .focus .table,
     td {
-      padding: 0px 20px 20px 30px;
+      padding: 0px 15px 20px 0px;
       /* font-family: 'Times New Roman', Times, serif; */
-      font-size: 20px;
+      font-size: 15px;
     }
     .build4 {
       display: block;
@@ -513,18 +527,26 @@ footer {
     .build3 {
       margin-top: 60px;
       background-color: rgb(203, 243, 203);
-      height: 570px;
-      width: 500px;
+      height: 620px;
+      width: 370px;
       border-radius: 20px;
-      margin: 60px 100px 0px 10px;
+      margin: 60px 100px 0px 2px;
+    }
+    .build3 img{
+      margin-right: 10px;
+      width: 320px;
     }
     .build2 {
       margin-top: 60px;
       background-color: rgb(246, 215, 177);
-      height: 570px;
-      width: 500px;
+      height: 600px;
+      width: 370px;
       border-radius: 20px;
-      margin: 60px 0px 0px 10px;
+      margin: 60px 0px 0px 2px;
+    }
+    .build2 img{
+      margin-right: 10px;
+      width:320px ;
     }
     #build {
       padding: 50px 20px 0px 5px;
@@ -601,6 +623,7 @@ footer {
     }
     .mtt .talent {
       padding: 40px 10px;
+
     }
   }
   
