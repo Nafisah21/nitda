@@ -18,13 +18,14 @@ html {
 .bout {
   float: right;
   padding-right: 50px;
-  margin-top: 4%;
+  margin-top: 2%;
   list-style: none;
   display: inline-block;
 }
 .bout li {
   display: inline;
   padding: 10px 10px;
+  font-size: 30px;
 }
 .bout ul a {
   background-color: lightgreen;
@@ -38,11 +39,11 @@ html {
   background-image: url("../images/11Honorable-Minister-Dr-Bosun-Tijani-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 150px;
-  width: 80%;
+  margin-left: 170px;
+  width: 90%;
   height: 400px;
   color: white;
-  padding-top: 270px;
+  padding-top: 420px;
 }
 .spell p {
   font-size: 50px;
@@ -52,7 +53,7 @@ html {
 }
 .spell h4 {
   padding-left: 40px;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 30px;
   line-height: 25px;
 }
@@ -66,17 +67,18 @@ html {
   margin-left: 40px;
   font-size: 20px;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .technical {
   margin-top: -100px;
   background-color: tan;
   color: black;
-  width: 400px;
-  height: 40px;
+  width: 500px;
+  height: 50px;
   border: none;
   margin-left: 40px;
-  font-size: 17px;
+  font-size: 22px;
   border-radius: 10px;
 }
 .mtt {
@@ -88,7 +90,7 @@ html {
   font-size: 60px;
 }
 .mtt p {
-  font-size: 17px;
+  font-size: 25px;
   /* font-family: Arial, Helvetica, sans-serif; */
   line-height: 30px;
 }
@@ -113,33 +115,46 @@ mg {
 
 .group {
   background-color: seagreen;
-  width: 80%;
+  width: 95%;
   height: 40%;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .group h1 {
   color: white;
   padding: 30px 60px;
-  font-size: 40px;
+  font-size: 70px;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 .group p {
   color: white;
   padding: 120px 60px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
 }
+
 .group2 {
   display: flex;
+}
+.group2 img{
+  width: 600px;
+  height: 600px;
+  margin-left: 300px;
+
 }
 .group3 {
   display: flex;
   color: white;
   padding: 70px 80px;
 }
+.group3 img{
+  width: 600px;
+  height: 600px;
+  margin-left: 150px;
+
+}
 .group3 p {
   margin-left: 160px;
-  font-size: 17px;
+  font-size: 25px;
 }
 .focus {
   background-color: rgb(242, 248, 242);
@@ -147,32 +162,36 @@ mg {
 .focus h1 {
   padding-top: 100px;
   color: forestgreen;
+  margin-left: 80px;
 }
 .group .focus p {
   color: black;
   margin-top: -120px;
+  margin-left: 80px;
+
 }
 .focus table {
   margin-top: -110px;
 }
 .focus .table,
 td {
-  padding: 0px 20px 20px 60px;
+  padding: 0px 50px 50px 150px;
   /* font-family: 'Times New Roman', Times, serif; */
-  font-size: 20px;
+  font-size: 30px;
 }
 #build {
   padding: 50px 20px 0px 200px;
 }
 #build h1 {
   color: forestgreen;
-  font-size: 40px;
+  font-size: 60px;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 #build p {
   color: black;
   /* font-family:Arial, Helvetica, sans-serif; */
   line-height: 30px;
+  font-size: 25px;
 }
 .build4 {
   display: flex;
@@ -181,70 +200,72 @@ td {
 .build2 {
   margin-top: 60px;
   background-color: rgb(246, 215, 177);
-  height: 570px;
-  width: 500px;
+  height: 800px;
+  width: 800px;
   border-radius: 20px;
-  margin: 60px 0px 0px 200px;
+  margin: 60px 180px 0px 220px;
 }
 .build2 img {
-  height: 300px;
-  width: 430px;
-  margin: 20px 20px 0px 33px;
+  height: 500px;
+  width: 650px;
+  margin:  20px 20px 0px 75px;
 }
 .build2 h1 {
   color: forestgreen;
-  font-size: 30px;
-  margin-left: 25px;
+  font-size: 60px;
+  margin-left: 55px;
   margin-top: 25px;
 }
 .build2 p {
-  margin-left: 25px;
+  margin-left: 55px;
   margin-top: 25px;
+  font-size: 20px;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
-button {
+.build2 button {
   color: white;
   background-color: forestgreen;
   border: none;
   height: 40px;
   width: 150px;
-  font-size: 15px;
-  margin-left: 23px;
+  font-size: 20px;
+  margin-left: 50px;
   border-radius: 5px;
   margin-top: 25px;
 }
 .build3 {
   margin-top: 60px;
   background-color: rgb(203, 243, 203);
-  height: 570px;
-  width: 500px;
+  height: 800px;
+  width: 800px;
   border-radius: 20px;
   margin: 60px 100px 0px 30px;
 }
 .build3 img {
-  height: 300px;
-  width: 430px;
-  margin: 20px 20px 0px 33px;
+  height: 500px;
+  width: 650px;
+  margin: 20px 20px 0px 75px;
 }
 .build3 h1 {
   color: forestgreen;
-  font-size: 30px;
-  margin-left: 25px;
+  font-size: 60px;
+  margin-left: 55px;
   margin-top: 25px;
 }
 .build3 p {
-  margin-left: 25px;
+  margin-left: 55px;
   /* font-family: Arial, Helvetica, sans-serif; */
   margin-top: 25px;
+  font-size: 20px;
 }
-button {
+.build3 button {
   color: white;
   background-color: forestgreen;
   border: none;
   height: 40px;
   width: 150px;
-  font-size: 15px;
-  margin-left: 23px;
+  font-size: 20px;
+  margin-left: 50px;
   border-radius: 5px;
   margin-top: 25px;
   cursor: pointer;
@@ -253,7 +274,7 @@ button {
   height: 100%;
   width: 80%;
   background-color: rgb(5, 55, 5);
-  margin: 100px 0px 20px 130px;
+  margin: 100px 0px 20px 200px;
   color: white;
   text-align: center;
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -261,18 +282,23 @@ button {
 }
 .build5 h1 {
   padding-top: 60px;
+  font-size: 50px;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 .build5 p {
   margin-top: 30px;
+  font-size: 30px;
 }
 .build5 button {
   background-color: forestgreen;
+ border: none;
   margin-top: 70px;
-  width: 200px;
+  width: 220px;
   margin-bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
   cursor: pointer;
+  color: white;
+  height: 50px;
 }
 .faqs {
 }
@@ -280,7 +306,7 @@ button {
   color: forestgreen;
   text-align: center;
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-size: 40px;
+  font-size: 70px;
 }
 .faqs2 {
   margin-top: 40px;
@@ -289,7 +315,7 @@ button {
   background-color: forestgreen;
   color: white;
   font-size: 35px;
-  width: 75%;
+  width: 80%;
   margin-left: 180px;
   padding: 15px 0px 15px 0px;
 }
@@ -312,6 +338,7 @@ button {
 }
 .faq4 p {
   border-bottom: 1px solid rgb(40, 40, 47);
+  font-size: 22px;
 }
 
 .faq5 {
@@ -324,6 +351,7 @@ button {
 }
 .faq5 p {
   border-bottom: 1px solid rgb(89, 89, 122);
+  font-size: 22px;
 }
 .faqs6 {
   margin-top: 40px;
@@ -333,7 +361,7 @@ button {
   background-color: forestgreen;
   color: white;
   font-size: 35px;
-  width: 75%;
+  width: 80%;
   margin-left: 180px;
   padding: 15px 0px 15px 0px;
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -358,6 +386,7 @@ button {
 }
 .faq8 p {
   border-bottom: 1px solid rgb(40, 40, 47);
+  font-size: 22px;
 }
 
 .faq9 {
@@ -370,10 +399,11 @@ button {
 }
 .faq9 p {
   border-bottom: 1px solid rgb(89, 89, 122);
+  font-size: 22px;
 }
 footer {
   text-align: center;
-  font-size: 17px;
+  font-size: 22px;
   padding: 20px 0px 30px 0px;
     transition: transform 0.5s ease;
     animation: zoomInOut 4s infinite;
@@ -386,18 +416,8 @@ footer {
     height: 40%;
     margin-left: 10%;
   }
-  .group h1 {
-    color: white;
-    padding: 30px 60px;
-    font-size: 40px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-  .group p {
-    color: white;
-    padding: 120px 60px;
-    font-size: 20px;
-    line-height: 30px;
-  }
+  
+  
   .group2 {
     display: flex;
   }
@@ -406,226 +426,273 @@ footer {
     color: white;
     padding: 70px 80px;
   }
+  
+
+@media screen and (max-width:700px) {
+  .group2 {
+    width: 100%;
+  }
+  .group2 img{
+    padding-left:3%;
+    width: 340px;
+      height: 400px;
+      margin-left: 0px;
+   
+  }
+  .group3 {
+    display: block;
+    margin-left:20px ;
+  }
   .group3 p {
-    margin-left: 160px;
-    font-size: 17px;
-  }
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    {
-      width: 100%;
-    } */
-    .group2 {
-      width: 100%;
-    }
-    .group2 img{
-      padding-left:3%;
-    }
-    .group3 {
-      display: block;
-      margin-left:20px ;
-    }
-    .group3 p {
-      width: 100%;
-      margin-left:-25%;
-    }
-    .group3 img{
-     margin-left:-45px;
-    }
-  }
-
-  @media all and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-    .spell{
-      height: 550px;
-      background-size: cover;
-      margin-left:0px; 
-      width: 100%;
-
-    }
-    .technical {
-      margin-top: 20px;
-      background-color: tan;
-      color: black;
-      width: 350px;
-      height: 40px;
-      border: none;
-      margin-left:10px;
-      font-size: 15px;
-      border-radius: 10px;
-    }
-    .spell p {
-      font-size:32px;
-      padding-left: 40px;
-      font-weight: 700;
-      margin-top: 20px;
-    }
-    .mtt h1 {
-      margin-top: 80px;
-      color: seagreen;
-      font-size: 50px;
-    }
-    .mtt p {
-      font-size: 15px;
-      /* font-family: Arial, Helvetica, sans-serif; */
-      line-height: 20px;
-    }
-    .mtt img {
-      padding: 220px 20px;
-      height: 200px;
-      width: 320px;
-    }
-    .group {
-      background-color: seagreen;
-      width:100%;
-      height:20%;
-     margin-left:2px;
-      
-    }
-    .group h1{
-      font-size: 40px;
-      padding: 30px 10px;
-    }
-    .group2 {
-      display:block;
-    }
-    .group2 p{
-      font-size:16px;
-    }
-    
-    .group3 {
-
-      color: white;
-      padding: 20px 40px;
-    }
-    .focus h1 {
-      padding-top: 50px;
-      color: forestgreen;
-      
-    }
-    .group .focus p {
-      color: black;
-      /* margin-top: -120px; */
-      margin-left: -50px;
-    }
-    
-    .focus table {
-      margin-top: -110px;
-    }
-    .focus .table,
-    td {
-      padding: 0px 15px 20px 0px;
-      /* font-family: 'Times New Roman', Times, serif; */
-      font-size: 15px;
-    }
-    .build4 {
-      display: block;
-    }
-    .build3 {
-      margin-top: 60px;
-      background-color: rgb(203, 243, 203);
-      height: 620px;
-      width: 370px;
-      border-radius: 20px;
-      margin: 60px 100px 0px 2px;
-    }
-    .build3 img{
-      margin-right: 10px;
-      width: 320px;
-    }
-    .build2 {
-      margin-top: 60px;
-      background-color: rgb(246, 215, 177);
-      height: 600px;
-      width: 370px;
-      border-radius: 20px;
-      margin: 60px 0px 0px 2px;
-    }
-    .build2 img{
-      margin-right: 10px;
-      width:320px ;
-    }
-    #build {
-      padding: 50px 20px 0px 5px;
-    }
-    .build5 {
-      height: 100%;
-      width: 100%;
-      background-color: rgb(5, 55, 5);
-      margin: 100px 0px 20px 0px;
-      color: white;
-      text-align: center;
-      /* font-family: Arial, Helvetica, sans-serif; */
-      padding-bottom: 5px;
-  }
-  .faqs2 h1 {
-    background-color: forestgreen;
-    color: white;
-    font-size: 35px;
     width: 100%;
-    margin-left: 10px;
-    padding: 15px 0px 15px 0px;
+    margin-left:-25%;
+    font-size: 20px;
   }
-  .faq4 {
-    background-color: #e7e7e7;
-    height: 50%;
-    width: 46%;
-    margin: 20px 5px 0px 20px;
-    font-size: 15px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-  .faqs6 h1 {
-    background-color: forestgreen;
-    color: white;
-    font-size: 35px;
-    width: 100%;
-    margin-left: 10px;
-    padding: 15px 0px 15px 5px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-  .faq5 {
-    background-color: #e7e7e7;
-    height: 50%;
-    width: 49%;
-    margin: 20px 10px 0px 30px;
-    font-size: 15px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-  .faq8 {
-    background-color: #e7e7e7;
-    height: 40%;
-    width: 44%;
-    margin: 20px 5px 0px 20px;
-    font-size: 15px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-  .faq9 {
-    background-color: #e7e7e7;
-    height: 50%;
-    width: 49%;
-    margin: 20px 10px 0px 30px;
-    font-size: 15px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
-    .ntda {
-      padding-left: 20px;
+  .group3 img{
+   margin-left:-45px;
+   width: 340px;
+      height: 400px;
       
-    }
-    .bout ul a {
-      background-color: lightgreen;
-      padding:5px 10px 10px 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      font-size: larger;
-    }
-    .mtt .talent {
-      padding: 40px 10px;
+  }
 
-    }
+  .spell{
+    height: 550px;
+    background-size: cover;
+    margin-left:0px; 
+    width: 100%;
+    margin-top: 25px;
+    background-image: url("../images/11Honorable-Minister-Dr-Bosun-Tijani-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 500px;
+    color: white;
+    padding-top: 250px;
+
+  }
+  .technical {
+    margin-top: -300px;
+    background-color: tan;
+    color: black;
+    width: 320px;
+    height: 40px;
+    border: none;
+    margin-left:10px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .spell p {
+    font-size:32px;
+    padding-left: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .spell h4 {
+    padding-left: 22px;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  .mtt h1 {
+    margin-top: 80px;
+    color: seagreen;
+    font-size: 50px;
+  }
+  .mtt p {
+    font-size: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 20px;
+  }
+  .mtt img {
+    padding: 220px 20px;
+    height: 200px;
+    width: 320px;
+  }
+  .group {
+    background-color: seagreen;
+    width:100%;
+    height:20%;
+   margin-left:2px;
+    
+  }
+   .group h1{
+    font-size: 40px;
+    padding: 30px 10px;
+  } 
+  .group2 {
+    display:block;
+  }
+  .group2 p{
+    font-size:16px;
   }
   
+  
+  .group3 {
+
+    color: white;
+    padding: 20px 40px;
+  }
+  .focus h1 {
+    padding-top: 50px;
+    color: forestgreen;
+    
+  }
+  .group .focus p {
+    color: black;
+    /* margin-top: -120px; */
+    margin-left: -50px;
+  }
+  
+  .focus table {
+    margin-top: -110px;
+  }
+  .focus .table,
+  td {
+    padding: 0px 15px 20px 0px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 15px;
+  }
+  #build p {
+    color: black;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #build h1 {
+    color: forestgreen;
+    font-size: 40px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  }
+  .build4 {
+    display: block;
+  }
+  .build3 {
+    margin-top: 60px;
+    background-color: rgb(203, 243, 203);
+    height: 620px;
+    width: 370px;
+    border-radius: 20px;
+    margin: 60px 100px 0px 2px;
+  }
+  .build3 img{
+    margin-left: 25px;
+    width: 320px;
+    height: 300px;
+  }
+
+  .build3 h1 {
+    font-size: 34px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .build3 p {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .build2 {
+    margin-top: 60px;
+    background-color: rgb(246, 215, 177);
+    height: 600px;
+    width: 370px;
+    border-radius: 20px;
+    margin: 60px 0px 0px 2px;
+  }
+  .build2 img{
+    margin-left: 25px;
+    width:320px ;
+    height: 300px;
+  }
+  .build2 h1 {
+    font-size: 30px;
+    margin-left: 55px;
+    margin-top: 15px;
+  }
+  .build2 p {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  #build {
+    padding: 50px 20px 0px 5px;
+  }
+  .build5 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 55, 5);
+    margin: 100px 0px 20px 0px;
+    color: white;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 5px;
+}
+.faqs2 h1 {
+  background-color: forestgreen;
+  color: white;
+  font-size: 35px;
+  width: 100%;
+  margin-left: 10px;
+  padding: 15px 0px 15px 0px;
+}
+.faq4 {
+  background-color: #e7e7e7;
+  height: 50%;
+  width: 46%;
+  margin: 20px 5px 0px 20px;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.faqs6 h1 {
+  background-color: forestgreen;
+  color: white;
+  font-size: 35px;
+  width: 100%;
+  margin-left: 10px;
+  padding: 15px 0px 15px 5px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.faq5 {
+  background-color: #e7e7e7;
+  height: 50%;
+  width: 49%;
+  margin: 20px 10px 0px 30px;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.faq8 {
+  background-color: #e7e7e7;
+  height: 40%;
+  width: 44%;
+  margin: 20px 5px 0px 20px;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.faq9 {
+  background-color: #e7e7e7;
+  height: 50%;
+  width: 49%;
+  margin: 20px 10px 0px 30px;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+  .ntda {
+    padding-left: 20px;
+    
+  }
+  .bout ul a {
+    background-color: lightgreen;
+    padding:5px 10px 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  .mtt .talent {
+    padding: 40px 10px;
+
+  }
+
+}
+
 
   
